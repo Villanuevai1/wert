@@ -1,14 +1,13 @@
 # Name of application: ClockInEdu
-# Version: 0.2
+# Version: 0.4
 
 
 
 Who did what
-1.Isaiah Villanueva: Started up the project. Worked on the dashboard.fxml,office_hours.fxml
-2. Alisha Pol:Worked on the styles sheet to make it look nice and the dashboard
-3.Linh Pham: Worked on the add office hours button so that the another screen pops up when you click add
-office hour to select semester and year
-4. Sang Tran:designed the add office hour pop up and cleaned up the code
+1.Isaiah Villanueva: Worked on setting up the database. 
+2. Alisha Pol: Redesigned the Manage Office hours page where you can view the office hours 
+3.Linh Pham: Implemented it so theres no dupliucates 
+4. Sang Tran: created the remove button and helped with data base 
 
 How to navigate application to test
 
@@ -17,6 +16,8 @@ The only button that has functionality is Manage Office Hours
 Next page is Manage Office Hours
 It will hold the proffesors current office hours
 The only button with functionality is Add office hour and Back to dashboard which sends you back to the
-homepage
+homepage. Alos you can also remove an office hour if you click on one then click Remove
 
-If you add any office hours nothing gets saved it just sends you back to the Manage Office hours page 
+When you create a New OFFICE Hour it give you option to fill in. The only mandatory things to fill in are Semester 
+Year and Select Days. Time Slot is optinal. Or lrave it blank. We jsut did it to be ahead a little. 
+
